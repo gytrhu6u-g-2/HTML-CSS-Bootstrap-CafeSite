@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* header section */
+#header {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./img/cafe_1.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.text__color {
+    color: #ffffff !important;
+    font-weight: 800;
+}
+
+.header__title {
+    position: absolute;
+    color: #ffffff;
+    font-size: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+/* menu section */
+
+.display__container {
+    border-right: solid 1px black;
+}
+#menu {
+    width: 100%;
+    height: 300px;
+    background-image: url('./img/gahag-0075110319.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__title {
+    color: #ffffff !important;
+    font-weight: 800;
+    font-size: 100px;
+}
+
+
+/* menu display section */
+.menu__display {
+    width: 100%;
+    height: 890px;
+    padding: 100px 50px;
+}
+
+.each__display {
+    width: 100%;
+}
+
+.each__display:nth-child(1) {
+    margin-bottom: 37px;
+}
+
+.display__title {
+    width: fit-content;
+    font-weight: bold;
+    font-size: 50px;
+    border-bottom: 5px solid red;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+dl {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+dl dt {
+width: 85%;
+height: fit-content;
+border-bottom: 1px black dashed;
+margin-bottom: 20px;
+}
+dl dd {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
