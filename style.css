@@ -281,7 +281,7 @@ p span {
 
 
 /* 991pxからレスポンシブ対応するための処理 */
-@media screen and (min-width:991px) {
+@media screen and (max-width:991px) {
     .display__container {
         border-right: none;
     }
