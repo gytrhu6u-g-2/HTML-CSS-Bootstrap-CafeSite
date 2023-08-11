@@ -54,6 +54,8 @@ a {
 .display__container {
     border-right: solid 1px black;
 }
+
+
 #menu {
     width: 100%;
     height: 300px;
@@ -116,7 +118,6 @@ dl dd {
 
 
 /* about section */
-
 #about {
     width: 100%;
     height: 300px;
@@ -252,7 +253,7 @@ dl dd {
 .our__store {
     width: 100%;
     height: auto;
-    padding: 100px 50px 0 50px;
+    padding: 100px 50px 50px 50px;
 }
 
 .map-container{
@@ -276,5 +277,13 @@ dl dd {
 
 p span {
     font-weight: bold;
+}
+
+
+/* 991pxからレスポンシブ対応するための処理 */
+@media screen and (min-width:991px) {
+    .display__container {
+        border-right: none;
+    }
 }
 
